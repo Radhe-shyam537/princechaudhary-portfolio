@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Chaudhary | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!-- Header -->
+    <header>
+        <div class="container header-container"> <img src="profile.jpeg" alt="Prince Chaudhary" class="profile-pic">
+            <h1>Prince Chaudhary</h1>
+            <p>Cybersecurity Student | Web Developer | Future Cloud Security Specialist</p>
+        </div>
+    </header> <!-- Navigation -->
+    <nav>
+        <div class="container nav-container"> <a href="#about">About</a> <a href="#skills">Skills</a> <a
+                href="#projects">Projects</a> <a href="#contact">Contact</a> </div>
+    </nav> <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p> I am a dedicated <strong>Cybersecurity student at Westminster College, Kupondol, Nepal</strong>, currently
+            in my second year. I have a strong foundation in web development, networking, and programming. I actively
+            practice Capture the Flag (CTF) challenges and bug bounty to apply my knowledge to real-world scenarios. My
+            long-term goal is to specialize in cloud security, machine learning, and AI applications in cybersecurity.
+        </p>
+    </section> <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>Python</p>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Development (HTML/CSS/JS)</p>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Networking & TCP/IP</p>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 65%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Security & Bug Bounty</p>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 50%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>MySQL</p>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 60%;"></div>
+            </div>
+        </div>
+    </section> <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Password Strength Checker</h3>
+                <p>Built using JavaScript to evaluate password security and provide improvement suggestions.</p> <input
+                    type="password" id="password" placeholder="Enter password"> <button onclick="checkPassword()">Check
+                    Strength Checker</button>
+                <p id="result"></p> <img src="images/password.jpg" alt="Password Strength Checker Screenshot"
+                    class="project-img">
+            </div>
+            <div class="project-card">
+                <h3>File Encryption/Decryption Tool</h3>
+                <p>Python program to encrypt and decrypt files securely using cryptography.</p>
+                <p><strong>How to run:</strong></p>
+                <ul>
+                    <li>Install Python on your system.</li>
+                    <li>Install the cryptography module: <code>pip install cryptography</code></li>
+                    <li>Run <code>file_encryption.py</code> in your terminal.</li>
+                </ul> <img src="images/file.png" alt="File Encryption Tool " class="project-img">
+            </div>
+            <div class="project-card">
+                <h3>Network Simulation</h3>
+                <p>LAN/WAN network simulated using Cisco Packet Tracer demonstrating IP addressing and packet flow.</p>
+                <img src="images/cisko.jpg" alt="Network Simulation " class="project-img">
+            </div>
+            <div class="project-card">
+                <h3>Simple Network Scanner</h3>
+                <p>Python tool to scan local network IPs and find active devices.</p>
+                <p><strong>How to run:</strong></p>
+                <ul>
+                    <li>Open terminal in the folder: <code>python_projects/network_scanner/</code></li>
+                    <li>Run <code>network_scanner.py</code></li>
+                </ul> <img src="images/network_scan.png" alt="Network Scanner Screenshot" class="project-img">
+            </div>
+            <div class="project-card">
+                <h3>Password Manager with Hashing</h3>
+                <p>Python tool that securely stores and verifies passwords using hashing.</p> <img
+                    src="images/password_manager.png" alt="Password Manager Screenshot" class="project-img">
+            </div>
+            <div class="project-card">
+                <h3>Web Security Practice</h3>
+                <p>Implemented input sanitization and XSS prevention in a sample login page to demonstrate web security
+                    practices.</p> <img src="images/web_sec.png" alt="Web Security Practice " class="project-img">
+            </div>
+    </section>
+    </section> <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p><strong>Phone:</strong> 9811848618</p>
+        <p><strong>Email:</strong> <a href="mailto:pc640756@gmail.com">pc640756@gmail.com</a></p>
+    </section> <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Prince Chaudhary | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
